@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_line_top_bottom"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/all_magrin" >
+
+    <TextView
+        android:id="@+id/dialog_saveImg_saveTv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:gravity="center"
+        android:text="保存到手机"
+        android:textSize="@dimen/text_textSize" />
+
+    <View style="@style/divider_horizontal" />
+
+    <TextView
+        android:id="@+id/dialog_saveImg_cancelTv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:gravity="center"
+        android:text="取消"
+        android:textSize="@dimen/text_textSize" />
+
+</LinearLayout>

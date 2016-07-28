@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 邀约图片的大小 -->
+    <dimen name="img_height_width">90dp</dimen>
+
+</resources>

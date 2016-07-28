@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_margin="@dimen/all_magrin"
+            android:background="@drawable/rectangle_stroke_gray"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:src="@drawable/invatepublish_time" />
+
+            <View
+                style="@style/divider_vertical_gray"
+                android:layout_margin="@dimen/all_magrin" />
+
+            <ImageView
+                android:id="@+id/test"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="请选择您的邀约时间"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout> --> 
+
+        <LinearLayout
+            android:id="@+id/ll_yaoyue_leixing"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:background="@drawable/rectangle_stroke_gray"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:src="@drawable/invatepublish_type" />
+
+            <View
+                style="@style/divider_vertical_gray"
+                android:layout_margin="@dimen/all_magrin" />
+
+            <TextView
+                android:id="@+id/invatePublish_typeEdt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="请选择您的邀约类型"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_margin="@dimen/all_magrin"
+            android:background="@drawable/rectangle_stroke_gray"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:src="@drawable/invatepublish_enroll" />
+
+            <View
+                style="@style/divider_vertical_gray"
+                android:layout_margin="@dimen/all_magrin" />
+
+            <TextView
+                android:id="@+id/invatePublish_enrollTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="是否需要报名"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/invatePublish_contentEdt"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:background="@drawable/rectangle_stroke_gray"
+            android:gravity="top|left"
+            android:maxLength="100"
+            android:hint="写点什么吧"
+            android:padding="15dp"
+            
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/all_magrin"
+            android:gravity="center_vertical|left"
+            android:text="(上传3张真实照片,就有机会被置顶哦!)"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_textSize_small" />
+<LinearLayout 
+    android:id="@+id/ll_tu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+        <com.example.com.jglx.android.app.view.RGridView
+            android:id="@+id/invatePublish_ivGV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/all_magrin"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:horizontalSpacing="5dp"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp" />
+</LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/all_magrin"
+            android:src="@drawable/invatepublish_iv" />
+
+        <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:background="@drawable/rectangle_stroke_gray"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:src="@drawable/invatepublish_place" />
+
+            <View
+                style="@style/divider_vertical_gray"
+                android:layout_margin="@dimen/all_magrin" />
+
+            <TextView
+                android:id="@+id/invatePublish_placeTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:text="重庆市渝北区G50(内环高速)"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout> -->
+    </LinearLayout>
+
+</ScrollView>

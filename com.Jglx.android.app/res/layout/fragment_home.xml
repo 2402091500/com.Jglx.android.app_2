@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fHome_tv1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="附近"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:id="@+id/fHome_tv2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="邀约"
+            android:textSize="@dimen/text_textSize" />
+
+        <RelativeLayout
+            android:id="@+id/fHome_Layout3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/fHome_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="活动"
+                android:textSize="@dimen/text_textSize" />
+
+            <ImageView
+                android:id="@+id/fHome_redCricleIv"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/fHome_tv3"
+                android:src="@drawable/cricle_red"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/fHome_line"
+        android:layout_width="80dp"
+        android:layout_height="3dp"
+        android:background="@color/green" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fHome_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

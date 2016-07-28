@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="com.example.com.jglx.android.app.ui.MyShezhiAnquanActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:background="@drawable/bg_line_top_bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/s_LL_zhanhaoanquan"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/s_tv_zhanhaoanquan"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/all_magrin"
+                android:text="邻信号"
+                android:textSize="@dimen/text_textSize" />
+
+            <TextView
+                android:id="@+id/s_tv_zhanhaoanquan_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="5dp"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <View style="@style/divider_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/all_magrin"
+                android:text="旧密码"
+                android:textSize="@dimen/text_textSize" />
+
+            <EditText
+                android:id="@+id/s_tv_linxinmima_oldPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@null"
+                android:gravity="center_vertical|left"
+                android:hint="请输入旧密码"
+                android:paddingLeft="5dp"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <View style="@style/divider_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/s_LL_linxinmima"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/s_tv_linxinmima"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/all_magrin"
+                android:text="新密码"
+                android:textSize="@dimen/text_textSize" />
+
+            <EditText
+                android:id="@+id/s_tv_linxinmima_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@null"
+                android:gravity="center_vertical|left"
+                android:hint="请输入新密码"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <View style="@style/divider_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/s_LL_querenmima"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/s_tv_querenmima"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/all_magrin"
+                android:text="确认密码"
+                android:textSize="@dimen/text_textSize" />
+
+            <EditText
+                android:id="@+id/s_tv_querenmima_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@null"
+                android:gravity="center_vertical|left"
+                android:hint="请再次输入密码   "
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:background="@drawable/bg_line_top_bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/all_magrin"
+        android:paddingRight="@dimen/all_magrin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="红包金额:" />
+
+        <EditText
+            android:id="@+id/gift_moneyEdt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:inputType="numberDecimal"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="元" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gift_numberLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:background="@drawable/bg_line_top_bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/all_magrin"
+        android:paddingRight="@dimen/all_magrin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="红包个数:" />
+
+        <EditText
+            android:id="@+id/gift_numberEdt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:inputType="number"
+            android:numeric="integer"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="个" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/gift_contentEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:background="@drawable/bg_line_top_bottom"
+        android:hint="恭喜发财,喜气洋洋!"
+        android:paddingLeft="@dimen/all_magrin" />
+
+    <Button
+        android:id="@+id/gift_giftOkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginLeft="@dimen/all_magrin"
+        android:layout_marginRight="@dimen/all_magrin"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_red"
+        android:gravity="center"
+        android:text="立即塞钱"
+        android:textColor="@color/white" />
+
+</LinearLayout>

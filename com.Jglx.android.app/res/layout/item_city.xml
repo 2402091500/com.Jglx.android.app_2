@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/all_magrin"
+        android:layout_marginRight="@dimen/all_magrin" >
+
+        <TextView
+            android:id="@+id/item_city_contentTv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_height"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical"
+            android:text="热门城市"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:id="@+id/item_city_userCountTv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_height"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:text="200人"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_textSize_small"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <View style="@style/divider_horizontal" />
+
+</LinearLayout>

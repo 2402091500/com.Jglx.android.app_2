@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_line_top_bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_deleteFirend_titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:gravity="center"
+            android:text="是否删除好友?"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:id="@+id/dialog_deleteFirend_okTv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:background="@drawable/bg_line_top_bottom"
+            android:gravity="center"
+            android:text="是"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:id="@+id/dialog_deleteFirend_cancelTv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:gravity="center"
+            android:text="否"
+            android:textSize="@dimen/text_textSize" />
+    </LinearLayout>
+
+</RelativeLayout>

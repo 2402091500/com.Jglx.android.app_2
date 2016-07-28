@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="com.example.com.jglx.android.app.ui.My_RenZhenActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/Renzhenzhiliao" />
+
+        <LinearLayout
+            android:id="@+id/my_ll_wodexiaoq"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/text_height"
+            android:background="@drawable/bg_line_top_bottom"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/my_tv_xiaoqumin"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:text="@string/wodexiaoqu"
+                android:textColor="@color/graytext" />
+
+            <TextView
+                android:id="@+id/my_tv_Renzhen_right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="9"
+                android:background="@null"
+                android:gravity="left|center_vertical"
+                android:hint="@string/qinsuruxiaoqumin"
+                android:paddingRight="10dp"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/my_ll_Renzhenfs"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@color/bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/my_tv_Renzhenfs"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:text="@string/renzenfansi" />
+
+            <TextView
+                android:id="@+id/my_tv_Renzhenfs_right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="9"
+                android:gravity="left|center_vertical"
+                android:paddingRight="10dp"
+                android:text="@string/erxuanyijike"
+                android:textColor="@color/graytext"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/my_ll_tupian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/my_tv_xiaoquzhaopianLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/all_magrin"
+                    android:gravity="center"
+                    android:text="@string/xiaoquzhaopian"
+                    android:textColor="@color/graytext" />
+
+                <ImageView
+                    android:id="@+id/my_tv_xiaoquzhaopianIv"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/xiaoquzhaop" />
+            </LinearLayout>
+
+            <View style="@style/divider_vertical_gray" />
+
+            <LinearLayout
+                android:id="@+id/my_tv_Renzhen_suidaifeiLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/all_magrin"
+                    android:gravity="center_horizontal"
+                    android:text="@string/shuidianqfp"
+                    android:textColor="@color/graytext" />
+
+                <ImageView
+                    android:id="@+id/my_tv_Renzhen_suidaifeiIv"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/xiaoquzhaop" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center"
+            android:text="@string/renzheng_text1"
+            android:textColor="@color/graytext"
+            android:textSize="@dimen/text_textSize" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="客服电话: "
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize_big" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="400-833-8898"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_textSize_big" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/renzheng_textTime"
+            android:textColor="@color/graytext"
+            android:textSize="@dimen/text_textSize_small" />
+    </LinearLayout>
+
+</LinearLayout>

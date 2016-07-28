@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/dialog_discuss_edt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/all_magrin"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_stroke_gray"
+        android:gravity="left|center_vertical"
+        android:hint="我也说一句"
+        android:minHeight="@dimen/text_height"
+        android:padding="5dp"
+        android:textSize="@dimen/text_textSize" />
+
+    <Button
+        android:id="@+id/dialog_discuss_sendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/text_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/all_magrin"
+        android:background="@drawable/rectangle_stroke_gray"
+        android:gravity="center"
+        android:text="发送"
+        android:textSize="@dimen/text_textSize" />
+
+</LinearLayout>

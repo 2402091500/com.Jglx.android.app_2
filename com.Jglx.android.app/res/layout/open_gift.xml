@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/open_gift_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/gift_bg"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="30dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/cricle_white"
+            android:padding="2dp" >
+
+            <com.example.com.jglx.android.app.view.CircleImageView
+                android:id="@+id/open_gift_iconIv"
+                android:layout_width="@dimen/icon_height_width"
+                android:layout_height="@dimen/icon_height_width"
+                android:layout_centerInParent="true"
+                android:src="@drawable/default_head" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/open_gift_nameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:gravity="center"
+            android:text="来自天空的你"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_textSize_big" />
+
+        <TextView
+            android:id="@+id/open_gift_contentTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:gravity="center"
+            android:text="恭喜发财,喜气洋洋!"
+            android:textColor="@color/graytext"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:id="@+id/open_gift_notipsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:gravity="center"
+            android:textColor="@color/gold"
+            android:textSize="30sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/open_gift_moneyTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:gravity="center"
+            android:textColor="@color/gold"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:id="@+id/open_gift_getDetailTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="查看领取详情   >"
+            android:textColor="@color/gold"
+            android:textSize="@dimen/text_textSize" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/open_gift_cancelIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+       android:padding="30dp"
+        android:src="@drawable/gift_close" />
+
+</RelativeLayout>

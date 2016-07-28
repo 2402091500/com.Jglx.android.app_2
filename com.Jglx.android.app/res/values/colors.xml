@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bantoumin">#FFFFE0</color>
+     <!-- //红包色 --> 
+    <color name="hongbao_she">#CF2A26</color>
+     <!-- //红包 亮色 --> 
+    <color name="hongbao_lian">#D95551</color>
+     <!-- //红包 暗色 --> 
+    <color name="hongbao_an">#A8221F</color>
+     <!-- //红包 背景色 --> 
+    <color name="hongbao_bg">#333333</color>
+     <!-- //红包 黄色 --> 
+    <color name="hongbao_huan">#F7E43C</color>
+    <color name="white">#FFFFFF</color>
+    <!-- 灰色 -->
+    <color name="gray">#CDC9C9</color>
+    <!-- 黑色-->
+    <color name="black">#000000</color>
+    <!-- 绿色 -->
+    <color name="green">#35BC9C</color>
+    <!-- my绿色#36BB9C -->
+    <color name="mygreen">#36BB9C</color>
+    <!-- 蓝色-->
+    <color name="bule">#36BB9C</color>
+    <!-- 象牙色 -->
+    <color name="lightyellow">#FFFFE0</color>
+    <!-- 桃色 -->
+    <color name="gold">#FFD700</color>
+   <!--背景色   -->
+    <color name="bg">#F0F0F0</color>
+    <color name="red">#FF0000</color>
+    <color name="bottomText_d">#35BC9C</color>
+    <color name="bottomText_n">#CDC9C9</color>
+     <color name="transparent">#00000000</color>
+   
+    <color name="graytext">#CFCFCF</color>
+    <color name="layoutwhite">#FFFFFF</color>
+   <!--  dataPick时间选择器 -->
+    <color name="province_line_border">#D0D0D0</color>
+   <!-- 背景色 黑 -->
+    <color name="bgblack">#2D3132</color>
+    
+    
+    
+    <color name="result_view">#b0000000</color>
+      <color name="viewfinder_mask">#60000000</color>
+      <color name="possible_result_points">#c0ffff00</color> 
+
+      
+      <!-- 分享 -->
+       <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+	<color name="umeng_socialize_list_item_textcolor">#333333</color>
+	<color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+	<color name="umeng_socialize_divider">#E6E6E6</color>
+	<color name="umeng_socialize_text_time">#999999</color>
+	<color name="umeng_socialize_text_title">#464f61</color>
+	<color name="umeng_socialize_text_friends_list">#959696</color>
+	<color name="umeng_socialize_text_share_content">#666666</color>
+	<color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+	<color name="umeng_socialize_text_ucenter">#595959</color>
+	<color name="umeng_socialize_edit_bg">#C4C4C4</color>
+	<color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+</resources>

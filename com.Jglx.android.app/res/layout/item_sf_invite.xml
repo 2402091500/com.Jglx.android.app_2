@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/item_sfInvite_personLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/all_magrin" >
+
+            <com.example.com.jglx.android.app.view.CircleImageView
+                android:id="@+id/item_sfInvite_iconIv"
+                android:layout_width="@dimen/icon_height_width"
+                android:layout_height="@dimen/icon_height_width"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/default_head" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_toRightOf="@+id/item_sfInvite_iconIv"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/item_sfInvite_nameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="6"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_textSize_big" />
+
+                    <RelativeLayout
+                        android:id="@+id/item_sfInvite_sexLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/all_magrin"
+                        android:layout_toRightOf="@+id/item_sfInvite_nameTv"
+                        android:background="@drawable/retangle_pink"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" >
+
+                        <ImageView
+                            android:id="@+id/item_sfInvite_sexIv"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/sex_woman" />
+
+                        <TextView
+                            android:id="@+id/item_sfInvite_oldTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/item_sfInvite_sexIv"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_textSize_small" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/item_sfInvite_timeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/text_textSize" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/item_sfInvite_homeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_home"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_textSize" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_sfInvite_contentTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/all_magrin"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:lineSpacingExtra="2dp"
+            android:textSize="@dimen/text_textSize" />
+
+        <LinearLayout
+            android:id="@+id/item_sfInvite_ivlayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_height_width"
+            android:layout_marginBottom="@dimen/all_magrin"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <com.example.com.jglx.android.app.view.RetangleImageView
+                    android:id="@+id/item_sfInvite_iv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_height_width"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_img_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" >
+
+                <com.example.com.jglx.android.app.view.RetangleImageView
+                    android:id="@+id/item_sfInvite_iv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_height_width"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_img_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" >
+
+                <com.example.com.jglx.android.app.view.RetangleImageView
+                    android:id="@+id/item_sfInvite_iv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_height_width"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_img_small" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View style="@style/divider_horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/all_magrin" >
+
+            <TextView
+                android:id="@+id/item_sfInvite_baomingTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/icon_enroll"
+                android:drawablePadding="@dimen/all_padding"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_textSize" />
+
+            <TextView
+                android:id="@+id/item_sfInvite_pinglunTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_toRightOf="@+id/item_sfInvite_baomingTv"
+                android:drawableLeft="@drawable/icon_discuss"
+                android:drawablePadding="@dimen/all_padding"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_textSize" />
+
+            <TextView
+                android:id="@+id/item_sfInvite_surfTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/icon_surf"
+                android:drawablePadding="@dimen/all_padding"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_textSize" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.com.jglx.android.app.ui.Qian_hongBao_Activity" >
+    <ImageView 
+        android:id="@+id/hongbao_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/hongbao_bg"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal|bottom" >
+
+        <View
+            android:id="@+id/placeholder"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true" />
+
+        <RelativeLayout
+            android:id="@+id/logo_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@id/placeholder"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom" >
+
+            <com.example.com.jglx.android.app.view.CircleImageView
+                android:id="@+id/logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/default_head" />
+              <ImageView 
+            android:id="@+id/hongbao_xx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="175dp"
+            android:paddingLeft="40dp"
+             android:layout_alignParentRight="true"
+            android:src="@drawable/hongbao_xx"
+             android:layout_toRightOf="@id/logo"
+            />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:layout_below="@id/logo_ll"
+            android:gravity="center_horizontal"
+            android:text="100元" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@id/placeholder"
+             />
+      
+    </RelativeLayout>
+
+</FrameLayout>

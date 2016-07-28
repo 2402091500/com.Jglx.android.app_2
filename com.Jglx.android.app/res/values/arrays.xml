@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="item_namelist">
+        <item>妈妈圈</item>
+        <item>旅游圈</item>
+        <item>宠物圈</item>
+        <item>业主圈</item>
+        <item>邻友圈</item>
+        <item>牌友圈</item>
+        <item>运动圈</item>
+        <item>游戏圈</item>
+        <item>八卦圈</item>
+    </string-array>
+    <string-array name="spingarr">
+        <item>是否需要报名</item>
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="hot_city">
+        <item>北京</item>
+        <item>广州</item>
+        <item>上海</item>
+        <item>深圳</item>
+        <item>重庆</item>
+    </string-array>
+    <string-array name="report_list">
+        <item>色情低俗</item>
+        <item>广告骚扰</item>
+        <item>政治敏感</item>
+        <item>谣言</item>
+        <item>欺诈骗钱</item>
+        <item>违法（暴力恐怖、违禁品等）</item>
+        <item>售假投诉</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/item_groupDetail_iconLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <com.example.com.jglx.android.app.view.CircleImageView
+            android:id="@+id/item_groupDetail_iv"
+            android:layout_width="@dimen/icon_height_width"
+            android:layout_height="@dimen/icon_height_width"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_head" />
+
+        <ImageView
+            android:id="@+id/item_groupDetail_gmIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-1dp"
+            android:src="@drawable/head_gm"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/item_groupDetail_selectIv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/item_groupDetail_iv"
+            android:src="@drawable/pictures_selected"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_groupDetail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:textSize="@dimen/text_textSize" />
+
+    <TextView
+        android:id="@+id/item_groupDetail_moreTv"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="查看更多..."
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_textSize"
+        android:visibility="gone" />
+
+</LinearLayout>

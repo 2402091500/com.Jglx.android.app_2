@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.com.jglx.android.app.view.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="@dimen/all_magrin"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:background="@drawable/bg_retangle_white" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/search" />
+
+            <EditText
+                android:id="@+id/city_searchEdt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical|left"
+                android:hint="搜索城市名称"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textSize="@dimen/text_textSize_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/city_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/city_locationLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:background="@drawable/bg_line_top_bottom"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/city_locationTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/all_magrin"
+                    android:gravity="center"
+                    android:text="重庆"
+                    android:textSize="@dimen/text_textSize" />
+
+                <TextView
+                    android:id="@+id/city_locationShowTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/city_locationTv"
+                    android:gravity="center"
+                    android:text="定位城市"
+                    android:textColor="@color/graytext"
+                    android:textSize="@dimen/text_textSize_small" />
+
+                <ImageView
+                    android:id="@+id/city_locationIv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/all_magrin"
+                    android:src="@drawable/city_select"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/city_typeHotTv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/all_padding"
+                android:text="热门城市"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize" />
+
+            <com.example.com.jglx.android.app.view.ReListView
+                android:id="@+id/city_hotlv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_line_top_bottom"
+                android:divider="@null" />
+
+            <TextView
+                android:id="@+id/city_typeAllTv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/all_padding"
+                android:text="所有城市"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize" />
+
+            <com.example.com.jglx.android.app.view.ReListView
+                android:id="@+id/city_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_line_top_bottom"
+                android:divider="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/city_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/city_noDataTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:minHeight="@dimen/text_height"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="没有找到你的小区?"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize" />
+
+            <View
+                style="@style/divider_horizontal"
+                android:layout_marginLeft="@dimen/all_magrin" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.example.com.jglx.android.app.view.CustomScrollView>

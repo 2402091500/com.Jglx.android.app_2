@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff" >
+
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/lv_gallery"
+        android:background="#80000000"
+        android:gravity="center"
+        android:text="返回详情"
+        android:textColor="#fff" />
+
+   
+
+    <ListView
+        android:id="@+id/lv_gallery"
+        android:scrollbars="@null"
+        android:layout_width="80dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:divider="#50000000"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/back"
+        android:background="#50000000" >
+
+    </ListView>
+
+</RelativeLayout>

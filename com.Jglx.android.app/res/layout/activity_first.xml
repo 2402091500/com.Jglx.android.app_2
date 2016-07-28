@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/first_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/first_goBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:alpha="0.5"
+        android:background="@drawable/rectangle_stoke_white"
+        android:text="立即进入"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/first_circleLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/all_magrin"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" />
+
+</RelativeLayout>

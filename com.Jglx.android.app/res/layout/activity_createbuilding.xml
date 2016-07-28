@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+
+    <View
+        style="@style/divider_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:gravity="center"
+                android:text="位置名称"
+                android:textSize="@dimen/text_textSize" />
+
+            <EditText
+                android:id="@+id/createBuiling_nameEdt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="left|center_vertical"
+                android:hint="输入名称"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <View
+            style="@style/divider_horizontal"
+            android:layout_marginLeft="@dimen/all_magrin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:gravity="center"
+                android:text="选择地区"
+                android:textSize="@dimen/text_textSize" />
+
+            <TextView
+                android:id="@+id/createBuiling_cityTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="left|center_vertical"
+                android:hint="请选择所在地区"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <View
+            style="@style/divider_horizontal"
+            android:layout_marginLeft="@dimen/all_magrin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:gravity="center"
+                android:text="详细地址"
+                android:textSize="@dimen/text_textSize" />
+
+            <EditText
+                android:id="@+id/createBuiling_palceDetailTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="left|center_vertical"
+                android:hint="街道门牌信息"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <View
+            style="@style/divider_horizontal"
+            android:layout_marginLeft="@dimen/all_magrin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:gravity="center"
+                android:text="联系电话"
+                android:textSize="@dimen/text_textSize" />
+
+            <EditText
+                android:id="@+id/createBuiling_phoneEdt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="left|center_vertical"
+                android:hint="你的联系电话 ,选填"
+                android:inputType="number"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <View
+            style="@style/divider_horizontal"
+            android:layout_marginLeft="@dimen/all_magrin" />
+    </LinearLayout>
+
+</LinearLayout>

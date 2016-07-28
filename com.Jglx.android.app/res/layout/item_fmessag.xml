@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_fMsg_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/all_magrin" >
+
+        <RelativeLayout
+            android:id="@+id/item_fMsg_avaterLayout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <com.example.com.jglx.android.app.view.CircleImageView
+                android:id="@+id/item_fMsg_avaterIv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_head" />
+
+            <TextView
+                android:id="@+id/item_fMsg_unreadNumberTv"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/cricle_red"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_textSize_small" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_toRightOf="@+id/item_fMsg_avaterLayout"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/item_fMsg_nameTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/text_textSize_big" />
+
+                <TextView
+                    android:id="@+id/item_fMsg_timeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/graytext"
+                    android:textSize="@dimen/text_textSize_small" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/item_fMsg_msgTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/item_fMsg_stateTv"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/item_fMsg_avaterLayout"
+            android:src="@drawable/msg_state_fail_resend"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_horizontal"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+    
+    <View 
+    android:layout_height="0.1px"
+    android:layout_width="fill_parent"
+    android:layout_alignParentTop="true"
+    android:background="@color/gray"/>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.example.com.jglx.android.app.view.CircleImageView
+            android:id="@+id/tou"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/default_head" />
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    <LinearLayout 
+        android:id="@+id/l2"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+   android:layout_toRightOf="@+id/l1"
+   android:gravity="center_vertical"
+    android:paddingLeft="15dp"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/name"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="昵称 给不给"
+    android:gravity="left"
+        />
+    <TextView 
+        android:id="@+id/hua"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+     android:gravity="left"
+     android:paddingTop="5dp"
+     android:textColor="@color/graytext"
+    android:text="恭喜发财，红包拿来！"
+        />
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    <LinearLayout 
+         android:id="@+id/l3"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_alignParentRight="true"
+    android:gravity="center_vertical|right"
+    
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/qiang"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/hongbao_she"
+    android:text="0.01元"
+    android:gravity="right"
+        />
+    <TextView 
+        android:id="@+id/time"
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    android:paddingTop="5dp"
+    android:textColor="@color/graytext"
+    android:text="11月9号15:46:88"
+        />
+    </LinearLayout>
+    
+    
+
+</RelativeLayout>

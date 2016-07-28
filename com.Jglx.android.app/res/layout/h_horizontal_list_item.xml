@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    
+     >
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingLeft="1dip"
+    android:paddingRight="1dip"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:clickable="true"
+   >
+  <com.example.com.jglx.android.app.view.RetangleImageView 
+      android:id="@+id/img_list_item"
+      android:scaleType="centerCrop"
+      android:layout_width="90dp"
+      android:layout_height="90dp"
+      android:background="@color/white"/>
+   
+
+</LinearLayout>
+<TextView  
+    android:id="@+id/tv"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:alpha="0.5"
+    android:background="@color/white"
+    android:textColor="@color/black"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_gravity="bottom|center_horizontal"
+    android:visibility="gone"
+    android:text="李利锋"/>
+</FrameLayout>

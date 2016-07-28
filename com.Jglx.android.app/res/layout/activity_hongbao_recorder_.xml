@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.com.jglx.android.app.ui.Hongbao_recorder_Activity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+          android:background="@color/hongbao_she"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/left_bt"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="我收到的"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:gravity="center|center_vertical"
+            android:background="@drawable/switch_button_left_checked"
+            android:scaleType="fitXY"
+           />
+
+        <Button
+            android:id="@+id/right_bt"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="我发出的"
+             android:textSize="14sp"
+            android:textColor="@color/hongbao_an"
+            android:gravity="center|center_vertical"
+            android:background="@drawable/switch_button_right"
+            android:scaleType="fitXY" />
+
+    </LinearLayout>
+
+    <com.example.com.jglx.android.app.view.CircleImageView
+        android:id="@+id/tou"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/hongbao_she"
+        android:src="@drawable/default_head" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp"
+        android:background="@color/hongbao_she"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/ge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/hongbao_huan"
+                android:text="  " />
+
+            <TextView
+                 android:id="@+id/c1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="收到红包" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="25dp"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/qian"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="  " 
+                android:textColor="@color/hongbao_huan"/>
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                    android:textColor="@color/white"
+                android:text="收到金额" />
+        </LinearLayout>
+    </LinearLayout>
+      <com.example.com.jglx.android.app.view.RfListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:divider="@null"
+        android:listSelector="#00000000"
+        android:scrollbars="none" />
+
+</LinearLayout>

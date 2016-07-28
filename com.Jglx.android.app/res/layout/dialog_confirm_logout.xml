@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <TextView
+            android:id="@+id/dialog_confirmLogout_titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:gravity="center"
+            android:textSize="@dimen/text_textSize_big" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/dialog_confirmLogout_cancelBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle_green_stoke"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_textSize" />
+
+            <Button
+                android:id="@+id/dialog_confirmLogout_okBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle_green"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

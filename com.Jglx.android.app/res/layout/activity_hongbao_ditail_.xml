@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="@color/white"
+    tools:context="com.example.com.jglx.android.app.ui.Hongbao_ditail_Activity" >
+  
+    <com.example.com.jglx.android.app.view.CustomScrollView_ac
+         android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg"
+        >
+     <LinearLayout
+         android:weightSum="2"
+          android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+     android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+                android:id="@+id/topll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hongbao_she"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/all_magrin" >
+
+                <com.example.com.jglx.android.app.view.CircleImageView
+                    android:id="@+id/dtou"
+                    android:layout_width="fill_parent"
+                    android:layout_height="90dp"
+                    android:src="@drawable/default_head" />
+
+                <TextView
+                    android:id="@+id/dname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/all_magrin"
+                    android:gravity="center"
+                    android:text="   "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_textSize_big" />
+
+                <TextView
+                    android:id="@+id/dhua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/graytext"
+                    android:text="   "
+                    android:textSize="@dimen/text_textSize_small" />
+                <TextView
+                    android:id="@+id/dmoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:textColor="@color/hongbao_huan"
+                    android:gravity="center"
+                    android:text="  "
+                    android:textSize="30sp" />
+            </LinearLayout>
+             <LinearLayout
+                android:id="@+id/midle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingTop="@dimen/all_magrin" >
+                <TextView 
+                     android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   "
+                android:paddingLeft="15dp"
+                android:textColor="@color/graytext"
+                android:layout_weight="1"
+                    />
+               
+                <TextView 
+                     android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:gravity="right"
+                android:paddingRight="15dp"
+                  android:layout_weight="1"
+                  android:textColor="@color/graytext"
+                    />
+                
+                </LinearLayout>
+                <ListView 
+                    android:id="@+id/list"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                    ></ListView>
+                <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0.1px"
+                android:background="@color/gray"
+                    />
+                  </LinearLayout>
+                </com.example.com.jglx.android.app.view.CustomScrollView_ac>
+
+</LinearLayout>

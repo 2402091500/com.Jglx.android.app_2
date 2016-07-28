@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/name_nameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:background="@drawable/bg_line_top_bottom"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/all_padding"
+        android:textSize="@dimen/text_textSize" />
+
+</LinearLayout>

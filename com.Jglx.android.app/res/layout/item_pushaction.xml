@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item_pushaction_timeTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/graytext"
+        android:textSize="@dimen/text_textSize_small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_pushaction_timeTv"
+        android:layout_marginLeft="@dimen/all_magrin"
+        android:layout_marginRight="@dimen/all_magrin"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_stroke_gray_corner"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_pushaction_dateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:gravity="center_vertical|left"
+            android:textColor="@color/graytext"
+            android:textSize="@dimen/text_textSize_small" />
+
+        <TextView
+            android:id="@+id/item_pushaction_titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:gravity="center_vertical|left"
+            android:textSize="@dimen/text_textSize_big" />
+
+        <com.example.com.jglx.android.app.view.RetangleImageView
+            android:id="@+id/item_pushaction_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:minHeight="100dp"
+            android:scaleType="centerCrop" />
+
+        <com.example.com.jglx.android.app.view.DashedLineView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/all_magrin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/all_magrin"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:gravity="center_vertical|left"
+            android:text="亲赴楼盘现场,尽享商家优惠额~"
+            android:textColor="@color/graytext"
+            android:textSize="@dimen/text_textSize_small" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_pushaction_deleteIv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/item_pushaction_timeTv"
+        android:layout_marginRight="@dimen/all_magrin"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:src="@drawable/city_select"
+        android:visibility="invisible" />
+
+</RelativeLayout>

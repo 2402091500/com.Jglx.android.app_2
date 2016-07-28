@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.com.jglx.android.app.ui.MyShezhiXieyiActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_magrin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_0"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_1"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_2"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_3"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_4"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_5"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_6"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_7"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_8"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_9"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_10"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_11"
+            android:textSize="@dimen/text_textSize" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/text_height"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/yonghuxieyi_12"
+            android:textSize="@dimen/text_textSize" />
+    </LinearLayout>
+
+</ScrollView>

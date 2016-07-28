@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/all_magrin"
+    android:paddingRight="@dimen/all_magrin"
+    tools:context="com.example.com.jglx.android.app.ui.MyShezhiWomenActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|left"
+        android:lineSpacingExtra="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/about_lx1"
+        android:textSize="@dimen/text_textSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical|left"
+        android:text="软件功能介绍"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_textSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/about_lx2"
+        android:textSize="@dimen/text_textSize" />
+
+    <TextView
+        android:id="@+id/mySZ_about_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="@dimen/text_textSize" />
+
+    <TextView
+        android:id="@+id/mySZ_about_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/text_textSize" />
+
+    <TextView
+        android:id="@+id/mySZ_about_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="5dp"
+        android:textSize="@dimen/text_textSize" />
+
+</LinearLayout>

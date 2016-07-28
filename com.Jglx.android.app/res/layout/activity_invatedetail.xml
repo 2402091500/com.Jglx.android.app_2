@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.com.jglx.android.app.view.CustomScrollView
+        android:id="@+id/invateDetail_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/btn_height"
+        android:background="@color/bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/all_magrin" >
+
+                    <com.example.com.jglx.android.app.view.CircleImageView
+                        android:id="@+id/invateDetail_iconIv"
+                        android:layout_width="@dimen/icon_height_width"
+                        android:layout_height="@dimen/icon_height_width"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/default_head" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/all_magrin"
+                        android:layout_toRightOf="@+id/invateDetail_iconIv"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/invateDetail_nameTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxEms="6"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_textSize_big" />
+
+                            <RelativeLayout
+                                android:id="@+id/invateDetail_sexLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/all_magrin"
+                                android:layout_toRightOf="@+id/invateDetail_nameTv"
+                                android:background="@drawable/retangle_pink"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp" >
+
+                                <ImageView
+                                    android:id="@+id/invateDetail_sexIv"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@drawable/sex_woman" />
+
+                                <TextView
+                                    android:id="@+id/invateDetail_oldTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_toRightOf="@+id/invateDetail_sexIv"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/text_textSize_small" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/invateDetail_timeTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:textColor="@color/gray"
+                                android:textSize="@dimen/text_textSize" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/invateDetail_homeTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/icon_home"
+                            android:drawablePadding="5dp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_textSize" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/invateDetail_contentTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/all_magrin"
+                    android:layout_marginLeft="@dimen/all_magrin"
+                    android:layout_marginRight="@dimen/all_magrin"
+                    android:lineSpacingExtra="2dp"
+                    android:textSize="@dimen/text_textSize" />
+
+                <LinearLayout
+                    android:id="@+id/invateDetail_ivlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_height_width"
+                    android:layout_marginBottom="@dimen/all_magrin"
+                    android:layout_marginLeft="@dimen/all_magrin"
+                    android:layout_marginRight="@dimen/all_magrin"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+
+                        <com.example.com.jglx.android.app.view.RetangleImageView
+                            android:id="@+id/invateDetail_iv1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/default_img_small"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1" >
+
+                        <com.example.com.jglx.android.app.view.RetangleImageView
+                            android:id="@+id/invateDetail_iv2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/default_img_small"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1" >
+
+                        <com.example.com.jglx.android.app.view.RetangleImageView
+                            android:id="@+id/invateDetail_iv3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/default_img_small"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View style="@style/divider_horizontal" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_height" >
+
+                    <ImageView
+                        android:id="@+id/invateDetail_surfIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/all_magrin"
+                        android:padding="@dimen/all_padding"
+                        android:src="@drawable/icon_surf" />
+
+                    <ImageView
+                        android:id="@+id/invateDetail_discussIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/all_magrin"
+                        android:layout_toRightOf="@+id/invateDetail_surfIv"
+                        android:padding="@dimen/all_padding"
+                        android:src="@drawable/icon_discuss" />
+
+                    <ImageView
+                        android:id="@+id/invateDetail_deleteIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:paddingBottom="@dimen/all_magrin"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="@dimen/all_magrin"
+                        android:paddingTop="@dimen/all_magrin"
+                        android:src="@drawable/delete_invate"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/invateDetail_sAndDLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/invateDetail_surfLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/all_magrin"
+                    android:orientation="horizontal"
+                    android:paddingRight="@dimen/all_magrin" >
+
+                    <ImageView
+                        android:id="@+id/invateDetail_surfIconShowIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="@dimen/all_magrin"
+                        android:src="@drawable/icon_enroll_small" />
+
+                    <LinearLayout
+                        android:id="@+id/invateDetail_iconLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" />
+
+                    <TextView
+                        android:id="@+id/invateDetail_numTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:textColor="@color/graytext"
+                        android:textSize="@dimen/text_textSize" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/invateDetail_disscussLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/all_magrin" >
+
+                    <ImageView
+                        android:id="@+id/invateDetail_discussLv_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="@dimen/all_magrin"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/icon_discuss_small" />
+
+                    <com.example.com.jglx.android.app.view.ReListView
+                        android:id="@+id/invateDetail_discussLv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/invateDetail_discussLv_iv"
+                        android:divider="@null"
+                        android:listSelector="#00000000"
+                        android:scrollbars="none" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.example.com.jglx.android.app.view.CustomScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/green"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/invateDetail_baoMingBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="报名"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_textSize" />
+
+        <View
+            android:id="@+id/invateDetail_bdLine"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/invateDetail_discussBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="评论"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_textSize" />
+    </LinearLayout>
+
+</RelativeLayout>

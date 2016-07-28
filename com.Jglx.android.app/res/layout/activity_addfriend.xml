@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="@dimen/all_magrin"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:background="@drawable/bg_retangle_white" >
+
+            <EditText
+                android:id="@+id/addfriend_searchEdt"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:background="@null"
+                android:gravity="center_vertical|left"
+                android:hint="搜索手机号"
+                android:imeOptions="actionSearch"
+                android:minWidth="80dp"
+                android:singleLine="true"
+                android:textSize="@dimen/text_textSize_small" />
+
+            <ImageView
+                android:id="@+id/addfriend_searchIv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_gravity="right"
+                android:src="@drawable/search" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/bg_line_top_bottom"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/addfriend_addPhoneLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/all_magrin"
+                    android:drawableTop="@drawable/addfriend_phone"
+                    android:gravity="center"
+                    android:text="添加手机联系人"
+                    android:textColor="@color/graytext"
+                    android:textSize="@dimen/text_textSize" />
+            </RelativeLayout>
+
+            <View style="@style/divider_vertical_gray" />
+
+            <RelativeLayout
+                android:id="@+id/addfriend_EWMLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/all_magrin"
+                    android:drawableTop="@drawable/addfriend_ewm"
+                    android:gravity="center"
+                    android:text="扫一扫二维码"
+                    android:textColor="@color/graytext"
+                    android:textSize="@dimen/text_textSize" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/addfriend_noSearchTv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginTop="@dimen/all_magrin"
+            android:gravity="center"
+            android:text="该好友还未注册,赶快邀请TA吧~"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_textSize"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/addfriend_showLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/all_magrin"
+            android:visibility="gone" >
+
+            <com.example.com.jglx.android.app.view.CircleImageView
+                android:id="@+id/addfriend_showIv"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/addfriend_showTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_toRightOf="@+id/addfriend_showIv"
+                android:gravity="center"
+                android:textSize="@dimen/text_textSize" />
+
+            <ImageView
+                android:id="@+id/addfriend_showAddIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/myfriend_add"
+                android:padding="@dimen/all_padding" />
+        </RelativeLayout>
+
+        <com.example.com.jglx.android.app.view.ReListView
+            android:id="@+id/addfriend_friendList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</ScrollView>

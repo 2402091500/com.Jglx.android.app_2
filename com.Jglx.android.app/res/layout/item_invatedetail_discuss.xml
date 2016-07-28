@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_invatedetail_discuss_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/item_invatedetail_discuss_nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_textSize" />
+
+    <TextView
+        android:id="@+id/item_invatedetail_discuss_textTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/all_magrin"
+        android:layout_toRightOf="@+id/item_invatedetail_discuss_nameTv"
+        android:gravity="left|center_vertical"
+        android:lineSpacingExtra="5dp"
+        android:textSize="@dimen/text_textSize" />
+
+</RelativeLayout>

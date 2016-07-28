@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <com.example.com.jglx.android.app.view.CustomScrollView_ac
+        android:id="@+id/My_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="50dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="@dimen/all_magrin" >
+
+                <com.example.com.jglx.android.app.view.RetangleImageView
+                    android:id="@+id/the_big_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_img_big" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/oval_white"
+                    android:padding="3dp" >
+
+                    <com.example.com.jglx.android.app.view.CircleImageView
+                        android:id="@+id/the_logo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/default_head" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/context_image"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </com.example.com.jglx.android.app.view.CustomScrollView_ac>
+
+    <TextView
+        android:id="@+id/action_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/green"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="立即报名"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

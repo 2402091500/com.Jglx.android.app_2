@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="horizontal" >
+
+    <com.example.com.jglx.android.app.view.ReListView
+        android:id="@+id/myF_photo_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/myF_photo_noDataTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_textSize_big"
+        android:visibility="gone" />
+
+</LinearLayout>

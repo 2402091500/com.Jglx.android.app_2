@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/all_magrin" >
+
+        <com.example.com.jglx.android.app.view.CircleImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:background="@drawable/default_head" />
+
+        <LinearLayout
+            android:id="@+id/row_rec_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:background="@drawable/chatfrom_bg" >
+
+            <TextView
+                android:id="@+id/tv_location"
+                style="@style/chat_content_date_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/location_msg"
+                android:gravity="center"
+                android:maxEms="10"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_userid"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/iv_userhead"
+            android:layout_toLeftOf="@id/row_rec_location"
+            android:maxEms="10"
+            android:singleLine="true"
+            android:textSize="@dimen/text_textSize" />
+    </RelativeLayout>
+
+</LinearLayout>

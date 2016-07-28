@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgblack"
+    tools:context="com.example.com.jglx.android.app.ui.My_ErWeiMaActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <com.example.com.jglx.android.app.view.CircleImageView
+                android:id="@+id/my_touxian"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/default_head" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <RelativeLayout
+                    android:id="@+id/my_rl_erweima_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/michen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="杨得得" />
+
+                    <RelativeLayout
+                        android:id="@+id/my_xinbi_rl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/all_magrin"
+                        android:layout_toRightOf="@+id/michen"
+                        android:background="@drawable/retangle_pink"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" >
+
+                        <ImageView
+                            android:id="@+id/my_sex_mw"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/sex_woman" />
+
+                        <TextView
+                            android:id="@+id/my_age"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/my_sex_mw"
+                            android:gravity="center"
+                            android:text="12"
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/xiaoquming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="财富中心财富园2号"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 中间二维码大图 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="20" >
+
+            <ImageView
+                android:id="@+id/my_erweima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="19"
+                android:paddingBottom="15dp"
+                android:src="@drawable/default_img_small" />
+
+            <TextView
+                android:id="@+id/my_erweima_showTv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="扫一扫上面的二维码图案，加我为好友哟"
+                android:textColor="@color/graytext"
+                android:textSize="@dimen/text_textSize_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

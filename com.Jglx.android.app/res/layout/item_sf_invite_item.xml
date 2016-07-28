@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="@dimen/all_magrin"
+            android:layout_marginRight="@dimen/all_magrin"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:background="@color/green" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="推荐主题"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_textSize_big" />
+        </LinearLayout>
+
+        <com.example.com.jglx.android.app.view.RGridView
+            android:id="@+id/item_sfInviteItem_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/all_magrin"
+            android:columnWidth="90dp"
+            android:horizontalSpacing="5dp"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp" />
+    </LinearLayout>
+
+</RelativeLayout>

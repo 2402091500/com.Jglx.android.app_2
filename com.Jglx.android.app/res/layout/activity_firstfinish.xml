@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/all_magrin"
+        android:layout_weight="1"
+        android:background="@color/white" >
+
+        <com.example.com.jglx.android.app.view.CircleImageView
+            android:id="@+id/firstFinish_iconIv"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_head" />
+
+        <View
+            style="@style/divider_horizontal"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/all_magrin"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:background="@drawable/bg_line_top_bottom"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/all_magrin"
+                android:gravity="center"
+                android:text="昵称" />
+
+            <EditText
+                android:id="@+id/firstFinish_nameEdt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical|left"
+                android:hint="请输入昵称"
+                android:textSize="@dimen/text_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:background="@drawable/bg_line_top_bottom"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/all_magrin"
+                android:gravity="center"
+                android:text="小区" />
+
+            <TextView
+                android:id="@+id/firstFinish_buildingTv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/all_magrin"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical|left"
+                android:hint="请选择您所在的小区" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/firstFinish_erroTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_height"
+            android:gravity="center"
+            android:text="请完善个人信息"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_textSize" />
+    </LinearLayout>
+
+</LinearLayout>

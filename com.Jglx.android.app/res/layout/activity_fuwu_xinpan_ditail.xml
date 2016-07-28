@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="vertical" >
+    
+    
+
+    <FrameLayout
+        android:id="@+id/video_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:visibility="gone" >
+       
+    </FrameLayout>
+    
+    
+     <com.example.com.jglx.android.app.view.CustomScrollView
+        android:id="@+id/page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+             <WebView
+        android:id="@+id/v_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="3dp"
+        android:background="#fff" />
+       <!-- 经典户型  -->    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/all_padding"
+                android:paddingBottom="@dimen/all_padding"
+                 >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jdhx_10" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="经典户型"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CLASSIC FAMILY"
+                        android:textColor="#666"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <!--  <com.example.com.jglx.android.app.view.BouncyHScrollView
+                         android:layout_width="match_parent"
+                          android:layout_height="90dp"> -->
+             <com.example.com.jglx.android.app.view.HorizontalListView
+                        android:id="@+id/jdhx"
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:layout_height="90dp"
+                        />
+            <!--  </com.example.com.jglx.android.app.view.BouncyHScrollView> -->
+        </LinearLayout>
+   <!-- 经典户型  -->  
+       <!-- 景观漫游  -->    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                 android:paddingTop="@dimen/all_padding"
+                android:paddingBottom="@dimen/all_padding"
+                 >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jgmy_10" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="景观漫游"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LUXURY FITNESS CHARM"
+                        android:textColor="#666"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+             <!-- <com.example.com.jglx.android.app.view.BouncyHScrollView
+                         android:layout_width="match_parent"
+                          android:layout_height="90dp"> -->
+             <com.example.com.jglx.android.app.view.HorizontalListView
+                        android:id="@+id/jgmy"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        />
+                      <!--  </com.example.com.jglx.android.app.view.BouncyHScrollView> -->
+            
+        </LinearLayout>
+   <!-- 景观漫游  -->  
+       <!-- 项目介绍  -->    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/all_padding"
+                android:paddingBottom="@dimen/all_padding"
+                 >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/xmjs_10" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="项目介绍"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INTERNATIONAL BRANDS"
+                        android:textColor="#666"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+             <TextView 
+                 android:id="@+id/ditail"
+                 android:padding="10dp"
+                  android:lineSpacingExtra="5dp"
+                 android:textScaleX="1.01"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 />
+            
+        </LinearLayout>
+   <!-- 项目介绍  -->  
+       <!-- 区位展示  -->    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                 android:paddingTop="@dimen/all_padding"
+                android:paddingBottom="@dimen/all_padding"
+                 >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jgmy_10" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="区位展示"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NATIONAL STRATEGIC LAND"
+                        android:textColor="#666"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+             <ImageView 
+                 android:id="@+id/quwei"
+                 android:scaleType="fitXY"
+                 android:padding="2dp"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                />
+            
+        </LinearLayout>
+   <!-- 区位展示  -->  
+       <!-- 建筑规划  -->    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                 android:paddingTop="@dimen/all_padding"
+                android:paddingBottom="@dimen/all_padding"
+                 >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jzgh_logo_10" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="建筑规划"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NATIONAL STRATEGIC LAND"
+                        android:textColor="#666"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+             <ImageView 
+                 android:id="@+id/jianzu"
+                 android:scaleType="fitXY"
+                 android:padding="2dp"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                  />
+            
+        </LinearLayout>
+   <!-- 建筑规划  -->  
+       <!-- 物业配套  -->    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/all_padding"
+                android:paddingBottom="@dimen/all_padding"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/wypt_10" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="物业配套"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NATIONAL STRATEGIC LAND"
+                        android:textColor="#666"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+           <!--   -->
+            <LinearLayout
+                android:id="@+id/wuyea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                </LinearLayout>
+          
+          
+        </LinearLayout>
+   <!-- 物业配套  -->  
+    <!-- 销售咨询  -->    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/all_padding"
+                android:paddingBottom="@dimen/all_padding"
+                 >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jgmy_10" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="销售咨询"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SALES CONSULTATION"
+                        android:textColor="#666"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+             <TextView 
+                 android:id="@+id/tell"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:drawableLeft="@drawable/tell"
+                 android:text="TELL:023-67068080"
+                 android:gravity="center"
+                 />
+            
+        </LinearLayout>
+   <!-- 销售咨询  -->  
+        </LinearLayout>
+         
+         
+        </com.example.com.jglx.android.app.view.CustomScrollView>
+          <TextView 
+              android:id="@+id/huodongxianqing"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:visibility="gone"
+              android:gravity="center"
+              android:padding="15dp"
+              android:textColor="@color/white"
+              android:background="@color/green"
+              android:text="活动详情"
+              />
+</LinearLayout>
+ <com.example.com.jglx.android.app.view.RetangleImageView 
+                 android:id="@+id/hongbao"
+                 android:scaleType="fitXY"
+                 android:padding="2dp"
+                 android:paddingRight="10dp"
+                 android:src="@drawable/hongbao"
+                 android:layout_gravity="right|center_vertical"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                  />
+</FrameLayout>

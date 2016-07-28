@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sharestr">邻里之间的通讯往来的平台，共同的话题圈，邻里邀约更轻松，生活服务水电气、话费充值等轻松解决懒人的缴费问题，真正的互联网家.</string>
+    <!-- apk版本更新 -->
+    <string name="disk_is_null">sd卡不可用</string>
+    <string name="save_space_not_enough">sd卡储存空间不足</string>
+    <string name="version_update_tip">发现新版本</string>
+    <string name="update_tip_message">已经找到最新版本，等不及要体验了！</string>
+    <string name="update">立即更新</string>
+    <string name="install_now">立即安装</string>
+    <string name="next_time">下次再说</string>
+    <string name="download_finish">应用下载完成</string>
+    <!-- dialog显示 -->
+    <string name="dialog_loading">加载中...</string>
+    <string name="dialog_puting">提交中...</string>
+    <string name="dialog_login">正在登录</string>
+    <string name="app_name">邻信e家</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="chongqing">重庆</string>
+    <string name="tijiao">提交</string>
+    <string name="fuwu">服务</string>
+    <string name="xiaoxi">消息</string>
+    <string name="wode">我的</string>
+    <string name="my_money">我的零钱</string>
+    <string name="mywallet_show">邻信e家&#038;支付宝联合提供</string>
+    <string name="rfLv_header_hint_normal">下拉刷新</string>
+    <string name="rfLv_header_hint_ready">松开刷新数据</string>
+    <string name="rfLv_header_hint_loading">正在加载...</string>
+    <string name="rfLv_header_last_time">上次更新时间：</string>
+    <string name="rfLv_footer_hint_normal">查看更多</string>
+    <string name="rfLv_footer_hint_ready">松开载入更多</string>
+    <string name="title_activity_she_zhi">设置</string>
+    <string name="title_activity_my_she_zhi_yonhu">用户反馈</string>
+    <string name="my_shezhi_text">欢迎用户给出宝贵意见，你们的建议是我们前进的动力！</string>
+    <string name="myfragment_ewm">扫一扫上面的二维码图案,加我邻信e家哟</string>
+    <!-- 我的页面-认证页面 -->
+    <string name="Renzhenzhiliao">认证资料</string>
+    <string name="wodexiaoqu">我的小区</string>
+    <string name="qinsuruxiaoqumin">请输入小区名称</string>
+    <string name="renzenfansi">认证方式</string>
+    <string name="erxuanyijike">二选一即可</string>
+    <string name="xiaoquzhaopian">小区照片</string>
+    <string name="shuidianqfp">水电气发票图</string>
+    <string name="renzheng_text1">认证入住邻信e家小区真实与邻居好友接触</string>
+    <string name="renzheng_textTime">( 服务时间 10:00-23:00 )</string>
+    <!-- 新盘推荐 -->
+    <string name="loupansousuo">楼盘搜索</string>
+    <string name="quanbu">全部</string>
+    <string name="rexiao">热销</string>
+    <string name="tejia">特价</string>
+    <string name="xingpan">新盘</string>
+    <string name="error_404">访问不到服务器,或者页面不存在</string>
+    <string name="error_401">没有登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="title_activity_fuwu__more_">Fuwu_More_Activity</string>
+    <string name="title_activity_city_search_">City_search_Activity</string>
+    <string name="title_activity_fuwu_xinpan_ditail_">Fuwu_xinpan_ditail_Activity</string>
+    <!-- 分享 -->
+    <!-- 平台名称 -->
+    <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中&#8230;</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <string name="umeng_socialize_network_break_alert" translatable="false">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_comment" translatable="false">评论</string>
+    <string name="umeng_socialize_comment_detail" translatable="false">评论详情</string>
+    <string name="umeng_socialize_back" translatable="false">返回</string>
+    <string name="umeng_socialize_near_At" translatable="false">最近\@的好友</string>
+    <string name="umeng_socialize_friends" translatable="false">关注的好友</string>
+    <string name="umeng_socialize_send" translatable="false">发布</string>
+    <string name="umeng_socialize_tip_blacklist" translatable="false">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed" translatable="false">登录失败&#8230;</string>
+    <string name="umeng_socialize_msg_sec" translatable="false">秒前</string>
+    <string name="umeng_socialize_msg_min" translatable="false">分钟前</string>
+    <string name="umeng_socialize_msg_hor" translatable="false">小时前</string>
+    <string name="umeng_socialize_ucenter_login_title_guide" translatable="false">游客登录</string>
+    <string name="umeng_socialize_ucenter_login_title_platform" translatable="false">登录帐号</string>
+
+    <dimen name="alphabet_size">12dip</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
+
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， 
+												（二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。
+												（三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧&#8230;</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <!-- 平台名称 -->
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_socialize_text_waitting_share">正在分享&#8230;</string>
+    <string name="umeng_socialize_content_hint">说点啥&#8230;</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_img_des"></string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="title_activity_my_tuijian_share_">My_tuijian_share_Activity</string>
+    <string name="siren">星级私人订制服务，以细心、用心、诚心、真心、爱心、五心级服
+务，为您送上 24 小时配套送餐、管家保洁服务、私人party等，
+为崇尚的您献上国际星级标准入户管家服务，如此细致礼遇，尊享
+至高无上的生活体验。</string>
+    <string name="csp">拥有港式经典燕、鲍、翅、粤菜、杭州菜、沪菜、川菜，及开价超
+市点菜等多项出品服务特色；以先进规范的管理、有限的菜肴品质
+保证体系而享誉海内外</string>
+    <string name="wuye">专业的物业公司，为您提供专业的服务， 让您体验最专业的星级服
+务。</string>
+    <string name="baoan">依照法律、法规和国际关于保安服务政策、规定，根据
+客户的环境特点和要求，按照保安服务合同约定，采取巡逻、门卫
+守卫、押运、技术防卫等形式，卫客户提供保卫安全的相关服务。</string>
+    <string name="xiari">夏日放假充实惠前100名85折</string>
+
+    <!-- 用户协议 -->
+    <string name="yonghuxieyi_0">特别提示\n\n重庆邻信e家科技有限公司以下简称 “邻信e家” 在此特别提醒您（用户）在注册成为用户之前，请认真阅读本《用户协议》以下简称“协议”），确保您充分理解本协议中各条款。请您审慎阅读并选择接受或不接受本协议。除非您接受本协议所有条款，否则您无权注册、登录或使用本协议所涉服务。您的注册、登录、使用等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。本协议约定邻信e家APP与用户之间关于“邻信e家”软件服务（以下简称“服务”）的权利义务。“用户”是指注册、登录、使用本服务的个人。本协议可由邻信e家随时更新，更新后的协议条款一旦公布即代替原来的协议条款，恕不再另行通知，用户可在本网站查阅最新版协议条款。在邻信e家APP修改协议条款后，如果用户不接受修改后的条款，请立即停止使用邻信e家科技提供的服务，用户继续使用邻信e家提供的服务将被视为接受修改后的协议。</string>
+    <string name="yonghuxieyi_1">一、使用前提\n\n1、用户在使用本服务前需要注册一个“邻信e家”账号。“邻信e家”账号应当使用手机号注册，请用户使用尚未与邻信e家账号绑定的手机号码，邻信e家APP可以根据用户需求或产品需要对账号注册和绑定的方式进行变更，而无须事先通知用户。2、用户应向邻信e家APP提供真实、准确的个人资料，个人资料如有变更，应立即修正。如因用户提供的个人资料不真实或不准确，给用户自身造成任何性质的损失，均由用户自行承担。3、邻信e家APP基于地理位置的移动社交产品，用户注册应当授权邻信e家公开及使用其地理位置信息方可玩转邻信e家功能鉴于邻信e家账号的绑定注册方式，您同意邻信e家APP在注册时将使用您提供的手机号码/或自动提取您的手机号码及自动提取您的手机设备识别码等信息用于注册。4、用户对其自行发表、上传或传送的内容负全部责任，所有用户不得在邻信e家APP任何页面发布、转载、传送含违法违规违背国家荣誉和利益。破坏社会稳定的，诽谤他人侵害他人合法权益的信息，否则邻信e家APP有权自行处理并不告知用户。5、用户承诺对其发表或上传于邻信e家APP得所有信息（即属于《中华人民共和国著作权法》规定的作品，包括但不限于文字、图片、音乐、电影、表演和录音录像制品和电脑程序等）均享有完整的只是产权，或者已经得到相关权利人的合法授权；如用户违反本条规定造成邻信e家APP的一切费用（包括但不限于各种赔偿费、诉讼代理费及为此支出的其他合理费用）;6、当第三方认为用户发表或者上传于邻信e家APP的信息侵犯其权利，并根据《信息网络传播权保护条例》或者相关法律规定向邻信e家APP发送权利通知书时，用户同意邻信e家APP可以自行判断决定删除涉嫌侵权信息。</string>
+    <string name="yonghuxieyi_2">二、服务内容\n\n1、本服务的具体内容由邻信e家APP根据实际情况提供，包括但不限于授权用户通过其账号进行即时通讯、添加好友、加入群组、关注他人、发布留言。邻信e家APP可以对其提供的服务予以变更，且邻信e家APP提供的服务内容可能随时变更；用户将会收到邻信e家APP关于服务变更的通知。2、邻信e家APP提供的服务包含优惠活动服务与缴费服务。可以通过付费方式购买收费服务，具体方式为：用户通过网上银行、支付宝或其他“邻信e家”平台提供的付费途径支付用户小区的水电气费以及交通罚款、话费充值等服务，然后根据邻信e家APP公布的资费服务，邻信e家APP会在用户使用之前给予用户明确的提示，只有用户根据提示确认其同意按照前述支付方式支付费用并完成了支付行为，用户才能使用该等收费服务。支付行为的完成以银行或第三方支付平台生成“支付已完成”的确认通知为准。</string>
+    <string name="yonghuxieyi_3">三、用户个人隐私信息保护\n\n1、个人隐私信息是指涉及用户个人身份或个人隐私的信息，比如，用户真实姓名、身份证号、手机号码、手机设备识别码、IP地址、用户聊天记录。非个人隐私信息是指用户对本服务的操作状态以及使用习惯等明确且客观反映在陌陌科技服务器端的基本记录信息、个人隐私信息范围外的其它普通信息，以及用户同意公开的上述隐私信息。2、尊重用户个人隐私信息的私有性是邻信e家APP的一贯制度，邻信e家APP将采取技术措施和其他必要措施，确保用户个人隐私信息安全，防止在本服务中收集的用户个人隐私信息泄露、毁损或丢失。在发生前述情形或者邻信e家APP发现存在发生前述情形的可能时，将及时采取补救措施。3、邻信e家APP未经用户同意不向任何第三方公开、 透露用户个人隐私信息。但以下特定情形除外：(1) 邻信e家APP根据法律法规规定或有权机关的指示提供用户的个人隐私信息；(2) 由于用户将其用户密码告知他人或与他人共享注册帐户与密码，由此导致的任何个人信息的泄漏，或其他非因邻信e家APP原因导致的个人隐私信息的泄露；(3) 用户自行向第三方公开其个人隐私信息；(4) 用户与邻信e家APP及合作单位之间就用户个人隐私信息的使用公开达成约定，邻信e家APP因此向合作单位公开用户个人隐私信息；(5) 任何由于黑客攻击、电脑病毒侵入及其他不可抗力事件导致用户个人隐私信息的泄露。4、用户同意邻信e家APP可在以下事项中使用用户的个人隐私信息：(1) 邻信e家APP向用户及时发送重要通知，如软件更新、本协议条款的变更；(2) 邻信e家APP内部进行审计、数据分析和研究等，以改进邻信e家APP的产品、服务和与用户之间的沟通；(3) 依本协议约定，邻信e家APP管理、审查用户信息及进行处理措施；(4) 适用法律法规规定的其他事项。除上述事项外，如未取得用户事先同意，邻信e家APP不会将用户个人隐私信息使用于任何其他用途。5、邻信e家APP重视对未成年人个人隐私信息的保护。邻信e家APP将依赖用户提供的个人信息判断用户是否为未成年人。任何18岁以下的未成年人注册账号或使用本服务应事先取得家长或其法定监护人（以下简称"监护人"）的书面同意。除根据法律法规的规定及有权机关的指示披露外，邻信e家APP不会使用或向任何第三方透露未成年人的聊天记录及其他个人隐私信息。除本协议约定的例外情形外，未经监护人事先同意，邻信e家APP不会使用或向任何第三方透露未成年人的个人隐私信息。任何18岁以下的用户不得下载和使用邻信e家APP通过邻信e家APP提供的网络游戏。6、用户确认，其地理位置信息为非个人隐私信息，用户成、功注册“邻信e家”账号视为确认授权邻信e家APP提取、公开及使用用户的地理位置信息。用户地理位置信息将作为用户公开资料之一，由邻信e家APP向其他用户公开。如用户需要终止向其他用户公开其地理位置信息，可随时自行设置为隐身状态。7、为了改善邻信e家APP的技术和服务，向用户提供更好的服务体验，邻信e家APP或可会自行收集使用或向第三方提供用户的非个人隐私信息。</string>
+    <string name="yonghuxieyi_4">四、内容规范\n\n1、本条所述内容是指用户使用本服务过程中所制作、上载、复制、发布、传播的任何内容，包括但不限于账号头像、名称、用户说明等注册信息及认证资料，或文字、语音、图片、视频、图文等发送、回复或自动回复消息和相关链接页面，以及其他使用账号或本服务所产生的内容。2、用户不得利用“邻信e家”账号或本服务制作、上载、复制、发布、传播如下法律、法规和政策禁止的内容：(1) 反对宪法所确定的基本原则的；(2) 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；(3) 损害国家荣誉和利益的；(4) 煽动民族仇恨、民族歧视，破坏民族团结的；(5) 破坏国家宗教政策，宣扬邪教和封建迷信的；(6) 散布谣言，扰乱社会秩序，破坏社会稳定的；(7) 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；(8) 侮辱或者诽谤他人，侵害他人合法权益的；(9) 不遵守法律法规底线、社会主义制度底线、国家利益底线、公民合法权益底线、社会公共秩序底线、道德风尚底线和信息真实性底线的“七条底线”要求的；(10) 含有法律、行政法规禁止的其他内容的信息。3、用户不得利用“邻信e家”账号或本服务制作、上载、复制、发布、传播如下干扰“邻信e家”正常运营，以及侵犯其他用户或第三方合法权益的内容：(1) 含有任何性或性暗示的；(2) 含有辱骂、恐吓、威胁内容的；(3) 含有骚扰、垃圾广告、恶意信息、诱骗信息的；(4) 涉及他人隐私、个人信息或资料的；(5) 侵害他人名誉权、肖像权、知识产权、商业秘密等合法权利的；(6) 含有其他干扰本服务正常运营和侵犯其他用户或第三方合法权益内容的信息。</string>
+    <string name="yonghuxieyi_5">五、使用规则\n\n1、用户在本服务中或通过本服务所传送、发布的任何内容并不反映或代表，也不得被视为反映或代表邻信e家APP的观点立场或政策，邻信e家APP对此不承担任何责任。2、用户不得利用“邻信e家”账号或本服务进行如下行为：(1) 提交、发布虚假信息，或盗用他人头像或资料，冒充利用他人名义的(2) 强制、诱导其他用户关注、点击链接页面或分享信息的(3) 虚构事实、隐瞒真相以误导、欺骗他人的(4) 利用技术手段批量建立虚假账号的(5) 利用“邻信e家”账号或本服务从事任何违法犯罪活动的(6) 制作、发布与以上行为相关的方法、工具，或对此类方法、工具进行运营或传播，无论这些行为是否为商业目的(7) 其他违反法律法规规定、侵犯其他用户合法权益、干扰“邻信e家”正常运营或邻信e家APP未明示授权的行为3、用户须对利用“邻信e家”账号或本服务传送信息的真实性、合法性、无害性、准确性、有效性等全权负责，与用户所传‘播的信息相关的任何法律责任由用户自行承担，与邻信e家APP无关。如因此给邻信e家APP或第三方造成损害的，用户应当依法予以赔偿。4、邻信e家APP提供的服务中可能包括广告，用户同意在使用过程中显示邻信e家APP和第三方供应商、合作伙伴提供的广告。除法律法规明确规定外，用户应自行对依该广告信息进行的交易负责，对用户因依该广告信息进行的交易或前述广告商提供的内容而遭受的损失或损害，邻信e家APP不承担任何责任。</string>
+    <string name="yonghuxieyi_6">六、帐户管理\n\n1、 “邻信e家”账号的所有权归邻信e家APP所有，用户完成申请注册手续后，获得“邻信e家”账号的使用权，该使用权仅属于初始申请注册人，禁止赠与、借用、租用、转让或售卖。邻信e家APP因经营需要，有权回收用户的邻信e家APP.2、用户可以更改、删除“邻信e家”帐户上的个人资料、注册信息及传送内容等，但需注意，删除有关信息的同时也会删除用户储存在系统中的文字和图片。用户需承担该风险。3、用户有责任妥善保管注册账号信息及账号密码的安全，因用户保管不善可能导致遭受盗号或密码失窃，责任由用户自行承担。用户需要对注册账号以及密码下的行为承担法律责任。用户同意在任何情况下不使用其他用户的账号或密码。在用户怀疑他人使用其账号或密码时，用户同意立即通知邻信e家APP。4、用户应遵守本协议的各项条款，正确、适当地使用本服务，如因用户违反本协议中的任何条款，邻信e家APP在通知户后有权依据协议中断或终止对违约用户“邻信e家”账号提供服务。同时，邻信e家APP保留在任何时候收回“邻信e家”账号、用户名的权利。5、如用户注册“邻信e家”账号后一年不登录，通知用户后，邻信e家APP可以收回该账号，以免造成资源浪费，由此造成的不利后果由用户自行承担。</string>
+    <string name="yonghuxieyi_7">七、数据储存\n\n1、邻信e家APP不对用户在本服务中相关数据的删除或储存失败负责。2、邻信e家APP可以根据实际情况自行决定用户在本服务中数据的最长储存期限，并在服务器上为其分配数据最大存储空间等。用户根据自己的需要自行备份本服务中的相关数据。3、如用户停止使用本服务或本服务终止，邻信e家APP可以从服务器上永久地删除用户的数据。本服务停止、终止后，邻信e家APP没有义务向用户返还任何数据。</string>
+    <string name="yonghuxieyi_8">八、风险承担\n\n1、用户理解并同意，“邻信e家”仅为用户提供信息分享、传送及获取的平台，用户必须为自己注册账号下的一切行为负责，包括用户所传送的任何内容以及由此产生的任何后果。用户应对“邻信e家”及本服务中的内容自行加以判断，并承担因使用内容而引起的所有风险，包括因对内容的正确性、完整性或实用性的依赖而产生的风险。邻信e家APP无法且不会对因用户行为而导致的任何损失或损害承担责任。如果用户发现任何人违反本协议约定或以其他不当的方式使用本服务，请立即向邻信e家APP举报或投诉，邻信e家APP将依本协议约定进行处理。2、用户理解并同意，因业务发展需要，邻信e家APP保留单方面对本服务的全部或部分服务内容变更、暂停、终止或撤销的权利，用户需承担此风险。</string>
+    <string name="yonghuxieyi_9">九、法律责任\n\n1、如果邻信e家APP发现或收到他人举报或投诉用户违反本协议约定的，邻信e家APP有权不经通知随时对相关内容，包括但不限于用户资料、聊天记录进行审查、删除，并视情节轻重对违规账号处以包括但不限于警告、账号封禁 、设备封禁 、功能封禁 的处罚，且通知用户处理结果。2、用户理解并同意，邻信e家APP有权依合理判断对违反有关法律法规或本协议规定的行为进行处罚，对违法违规的任何用户采取适当的法律行动，并依据法律法规保存有关信息向有关部门报告等，用户应承担由此而产生的一切法律责任3、用户理解并同意，因用户违反本协议约定，导致或产生的任何第三方主张的任何索赔、要求或损失，包括合理的律师费，用户应当赔偿邻信e家APP与合作公司、关联公司，并使之免受损害。</string>
+    <string name="yonghuxieyi_10">十、不可抗力及其他免责事由\n\n1、用户理解并确认，在使用本服务的过程中，可能会遇到不可抗力等风险因素，使本服务发生中断。不可抗力是指不能预见、不能克服并不能避免且对一方或双方造成重大影响的客观事件，包括但不限于自然灾害如洪水、地震、瘟疫流行和风暴等以及社会事件如战争、动乱、政府行为等。出现上述情况时，邻信e家APP将努力在第一时间与相关单位配合，及时进行修复，但是由此给用户或第三方造成的损失，邻信e家APP及合作单位在法律允许的范围内免责。2、本服务同大多数互联网服务一样，受包括但不限于用户原因、网络服务质量、社会环境等因素的差异影响，可能受到各种安全问题的侵扰，如他人利用用户的资料，造成现实生活中的骚扰；用户下载安装的其它软件或访问的其他网站中含有“特洛伊木马”等病毒，威胁到用户的计算机信息和数据的安全，继而影响本服务的正常使用等等。用户应加强信息安全及使用者资料的保护意识，要注意加强密码保护，以免遭致损失和骚扰。3、用户理解并确认，本服务存在因不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机以及其他任何技术、互联网络、通信线路原因等造成的服务中断或不能满足用户要求的风险，因此导致的用户或第三方任何损失，邻信e家APP不承担任何责任。4、用户理解并确认，在使用本服务过程中存在来自任何他人的包括误导性的、欺骗性的、威胁性的、诽谤性的、令人反感的或非法的信息，或侵犯他人权利的匿名或冒名的信息，以及伴随该等信息的行为，因此导致的用户或第三方的任何损失，邻信e家APP不承担任何责任。5、用户理解并确认，邻信e家APP需要定期或不定期地对“邻信e家”平台或相关的设备进行检修或者维护，如因此类情况而造成服务在合理时间内的中断，邻信e家APP无需为此承担任何责任，但邻信e家APP应事先进行通告。6、邻信e家依据法律法规、本协议约定获得处理违法违规或违约内容的权利，该权利不构成邻信e家的义务或承诺，邻信e家不能保证及时发现违法违规或违约行为或进行相应处理。7、用户理解并确认，对于邻信e家APP向用户提供的下列产品或者服务的质量缺陷及其引发的任何损失，邻信e家APP无需承担任何责任：(1) 邻信e家APP向用户免费提供的服务；(2) 邻信e家APP向用户赠送的任何产品或者服务。8、在任何情况下，邻信e家APP均不对任何间接性、后果性、惩罚性、偶然性、特殊性或刑罚性的损害，包括因用户使用“邻信e家”或本服务而遭受的利润损失，承担责任（即使邻信e家APP已被告知该等损失的可能性亦然）。尽管本协议中可能含有相悖的规定，邻信e家APP对用户承担的全部责任，无论因何原因或何种行为方式，始终不超过用户因使用邻信e家APP提供的服务而支付给邻信e家APP的费用。</string>
+    <string name="yonghuxieyi_11">十一、服务的变更、中断、终止\n\n1、本平台发布之全部文化活动信息,包括但不限于活动地理位置信息，均直接或者间接来自于文化活动主办方。2、本平台发布文化活动信息，意在宣传文化活动、丰富用户文化生活。本平台用户于本平台“附近活动”功能板块发布的留言、评论等信息，均系用户自行发布。本平台不对上述信息的真实性、准确性，或及时性、完整性负责。</string>
+    <string name="yonghuxieyi_12">十二、其他\n\n1、邻信APP郑重提醒用户注意本协议中免除邻信APP责任和限制用户权利的条款，请用户仔细阅读，自主考虑风险。未成年人应在法定监护人的陪同下阅读本协议。2、本协议的效力、解释及纠纷的解决，适用于中华人民共和国法律。若用户和邻信e家APP之间发生任何纠纷或争议，首先应友好协商解决，协商不成的，用户同意将纠纷或争议提交邻信e家APP住所地有管辖权的人民法院管辖。3、本协议的任何条款无论因何种原因无效或不具可执行性，其余条款仍有效，对双方具有约束力。</string>
+    <string name="about_lx1">\u3000\u3000邻信e家 ( 1.0 ) 是一款小区社交软件 ,软件上线于 2015年 9月公司成立于 2008年 ,专注于社区交友 ,海内存知己 ,在家也能轻松交友 . 2015年邻信e家从"邻 "开始 ,为你呈现不一样的小区社交 ,丰富你的小区生活 ,实现你与邻居好友真正的零距离 .邻信e家 ( 1.0 ) 从"邻"开始 ,为你呈现.</string>
+    <string name="about_lx2">九个圈子，找到志同道合的人。\n生活服务，轻松交水电气交通罚款。\n小区群聊，随时随地风向新鲜事。\n真正互联网+，全国20万楼盘供你选择。\n以小区为标签，看盘时代来临。\</string>
+    <string name="title_activity_common_confrim_cancel_dialog">CommonConfrimCancelDialog</string>
+    <string name="title_activity_fuwu_pay_succes_">Fuwu_pay_succes_Activity</string>
+    <string name="title_activity_hongbao_ditail_">Hongbao_ditail_Activity</string>
+    <string name="title_activity_hongbao_recorder_">Hongbao_recorder_Activity</string>
+
+</resources>
